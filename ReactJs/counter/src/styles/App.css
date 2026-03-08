@@ -1,0 +1,39 @@
+.App {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    color: azure;
+}
+
+.counter-container {
+    width: 60%;
+    height: 50%;
+    border-radius: 50px;
+    box-shadow: 0 0 10px -2px whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.counter-container .result {
+    font-size: 18px;
+}
+
+.counter-container .action-btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+}
+
+.counter-container .set-count-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}

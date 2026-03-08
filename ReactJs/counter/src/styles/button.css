@@ -1,0 +1,21 @@
+.btn-wrapper {
+    width: 140px;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn-wrapper button {
+    outline: none;
+    width: 100%;
+    padding: 1rem;
+    border-radius: inherit;
+    cursor: pointer;
+    background-color: #131313;
+    color: aliceblue;
+    font-size: 18px;
+    transition: all ease-in-out 0.1s;
+}
+
+.btn-wrapper button:hover {
+    box-shadow: 0 0 8px -2px #8ee5e9;
+}
